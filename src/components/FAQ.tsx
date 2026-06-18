@@ -19,10 +19,7 @@ const faqData = [
 const FAQ: React.FC = () => {
     return (
         <section className="w-full bg-white py-24 md:py-32 flex justify-center">
-            {/* 
-        Using a constrained max-width (900px) to match the clean, readable 
-        line length shown in the Figma design.
-      */}
+
             <div className="max-w-[900px] w-full mx-auto px-6 md:px-12">
 
                 {/* Section Heading */}

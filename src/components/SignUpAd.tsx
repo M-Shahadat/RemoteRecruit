@@ -1,87 +1,3 @@
-
-// import React from 'react';
-// import dashboardImg from '../assets/Find Work.png';
-// import bottomBlob from '../assets/Ellipse 12.png';
-
-// const SignUpAd: React.FC = () => {
-//     return (
-//         <section className="relative overflow-hidden bg-[#EEF1FB] py-12 lg:py-20">
-//             <div className="pointer-events-none absolute inset-0">
-//                 {/* Top-left blob */}
-//                 <div className="absolute -top-[130px] -left-[160px] h-[360px] w-[360px] rounded-full bg-white/45" />
-
-//                 {/* Top-right blob */}
-//                 <div className="absolute -top-[155px] -right-[120px] h-[430px] w-[430px] rounded-full bg-white/45" />
-
-//                 {/* Bottom-left / center blob */}
-//                 <img
-//                     src={bottomBlob}
-//                     alt=""
-//                     aria-hidden="true"
-//                     className="absolute left-[31%] top-[58%] w-[493px] select-none pointer-events-none"
-//                     draggable={false}
-//                 />
-
-
-
-//                 {/* Yellow orb */}
-//                 <div className="absolute left-[19%] top-[2%] h-[56px] w-[56px] rounded-full bg-[linear-gradient(135deg,#FFD94A_0%,#F39A2E_100%)] shadow-[0_12px_24px_rgba(242,154,46,0.22)]" />
-
-//                 {/* Blue orb */}
-//                 <div className="absolute bottom-[8%] right-[18%] h-[30px] w-[30px] rounded-full bg-[linear-gradient(135deg,#4EB4DB_0%,#2B62B6_100%)] shadow-[0_12px_24px_rgba(43,98,182,0.22)]" />
-//             </div>
-
-//             <div className="relative z-10 mx-auto max-w-[1600px] px-0">
-//                 <div className="grid grid-cols-1 items-center lg:grid-cols-12">
-//                     <div className="lg:col-span-7">
-//                         <img
-//                             src={dashboardImg}
-//                             alt="RemoteRecruit Dashboard Interface"
-//                             className="block w-full object-contain object-left"
-//                             draggable={false}
-//                         />
-//                     </div>
-
-//                     <div className="px-8 pb-8 lg:col-span-5 lg:px-0 lg:pr-16 xl:pr-24">
-//                         <div className="max-w-[520px]">
-//                             <p className="mb-5 text-[16px] font-bold text-[#28478D]">
-//                                 Are you ready?
-//                             </p>
-
-//                             <h2 className="text-[58px] font-extrabold leading-[0.98] tracking-[-0.05em] text-[#15193A] lg:text-[44px]">
-//                                 Help is only a few
-//                                 <br />
-//                                 clicks away!
-//                             </h2>
-
-//                             <p className="mt-8 max-w-[440px] text-[18px] leading-[1.35] tracking-[-0.03em] text-[#7E8191] lg:text-[18px]">
-//                                 Click Below to get set up super quickly and find help now!
-//                             </p>
-
-//                             <button
-//                                 className="mt-12 flex items-center rounded-full bg-[#CFE0FF] py-3 pl-3 pr-8 shadow-[0_10px_30px_rgba(137,166,226,0.18)]"
-//                                 aria-label="Get Started"
-//                             >
-//                                 <span className="flex h-[62px] w-[62px] items-center justify-center rounded-full bg-[#51B7E0]">
-//                                     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-//                                         <path d="M4 12H20" stroke="white" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
-//                                         <path d="M13 5L20 12L13 19" stroke="white" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
-//                                     </svg>
-//                                 </span>
-//                                 <span className="ml-4 text-[24px] font-semibold tracking-[-0.03em] text-[#2A4A8D]">
-//                                     Get Started
-//                                 </span>
-//                             </button>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//         </section>
-//     );
-// };
-
-// export default SignUpAd;
-
 import React from 'react';
 import dashboardImg from '../assets/Find Work.png';
 import bottomBlob from '../assets/Ellipse 12.png';
@@ -134,7 +50,6 @@ const SignUpAd: React.FC = () => {
                                 Are you ready?
                             </p>
 
-                            {/* Adjusted responsive typography scaling */}
                             <h2 className="text-[38px] sm:text-[46px] md:text-[52px] lg:text-[58px] font-extrabold leading-[1.05] md:leading-[0.98] tracking-[-0.05em] text-[#15193A]">
                                 Help is only a few
                                 <br />

@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import footerBg from "../assets/FOOTER.svg";
 import rrIcon from "../assets/RR Icon Logo.png";
@@ -31,7 +29,7 @@ const SocialBtn = ({ children }: { children: React.ReactNode }) => (
 
 const PricingFooter = () => {
     return (
-        <section className="relative w-full overflow-hidden bg-white font-[Inter,sans-serif]">
+        <section className="relative w-full overflow-hidden bg-white">
 
             {/* Absolute SVG Background */}
             <div className="absolute bottom-0 left-1/2 z-0 w-full min-w-[1440px] -translate-x-1/2 pointer-events-none">
@@ -189,7 +187,6 @@ const PricingFooter = () => {
                 </div>
             </div>
 
-            {/* Absolute positioning locks the RR icon exactly inside the bottom gap BELOW the SVG line */}
             <div className="absolute bottom-[24px] left-1/2 z-10 -translate-x-1/2">
                 <img src={rrIcon} alt="RemoteRecruit Icon" className="h-8 md:h-10 w-auto object-contain" />
             </div>

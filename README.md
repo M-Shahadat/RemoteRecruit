@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# RemoteRecruit Home Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance and fully responsive landing page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+*   **Core Framework:** React 19
+*   **Build Tool:** Vite 8
+*   **Language:** TypeScript 6
+*   **Styling:** Tailwind CSS 3 (Utility-first styles with PostCSS and Autoprefixer for vendor prefixing)
+*   **Linting:** ESLint 10 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+##  Project Setup
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Must have [Node.js](https://nodejs.org/) installed before proceeding.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 1. Clone & Install Dependencies
+Navigate to root directory and install the required npm packages:
+```bash
+npm install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Start the Development Server
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Launch local development environment:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
+
 ```
+
+The application will be accessible at `http://localhost:5173`.
+
+### 3. Production Build
+
+Compile and optimize project for production deployment:
+
+```bash
+npm run build
+
+```
+
+### 4. Preview Production Build
+
+Locally inspect the compiled production build to verify production performance and layouts:
+
+```bash
+npm run preview
+
+```
+
+---
+
+## ⚠️ Known Limitations
+
+* **Pinned Asymmetrical Vector Assets:** The background canvas (`FOOTER.svg` and various background circles) is designed around a strict `1440px` Figma layout grid. To prevent distortion on ultra-wide screens or odd tablet dimensions, these elements are intentionally absolute-pinned using CSS.
+* **Interactive Placeholders:** Form submissions, Call to action buttons, and social media links currently navigate to placeholders (`#`) and require integration with a backend service or state manager for business logic. Or a third party service.
+* **React 19 Ecosystem:** As this project makes use of the latest React 19 core, legacy third-party slider or animation packages that rely on older React internals may throw peer dependency warnings unless explicitly run with the `--legacy-peer-deps` flag.
+
+```
+
+
+
+
+
+
+

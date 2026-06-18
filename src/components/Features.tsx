@@ -1,8 +1,6 @@
 import React from 'react';
 import FeatureRow from './FeatureRow';
 
-// IMPORTANT: Export these 3 UI illustrations from your Figma file into your assets folder.
-// Ensure they have transparent backgrounds.
 import feature1 from '../assets/feature-1.png';
 import feature2 from '../assets/feature-2.png';
 import feature3 from '../assets/feature-3.png';
@@ -26,7 +24,7 @@ const Features: React.FC = () => {
                     description="We don't charge you fees and we don't put up paywalls. We're the bridge that connects job opportunities with the best candidates, with no middleman involved."
                     imageSrc={feature2}
                     imageAlt="UI showing premium membership tier with unlimited features"
-                    reversed={true} // Flips the layout for the zig-zag effect
+                    reversed={true} // Flips layout for a zig-zag effect
                 />
 
                 <FeatureRow
