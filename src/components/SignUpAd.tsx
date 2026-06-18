@@ -50,7 +50,7 @@ const SignUpAd: React.FC = () => {
                                 Are you ready?
                             </p>
 
-                            <h2 className="text-[38px] sm:text-[46px] md:text-[52px] lg:text-[58px] font-extrabold leading-[1.05] md:leading-[0.98] tracking-[-0.05em] text-[#15193A]">
+                            <h2 className="text-[38px] sm:text-[46px] md:text-[52px] lg:text-[58px] font-bold leading-[1.05] md:leading-[0.98] tracking-[-0.05em] text-[#15193A]">
                                 Help is only a few
                                 <br />
                                 clicks away!

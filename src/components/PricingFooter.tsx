@@ -38,7 +38,7 @@ const PricingFooter = () => {
 
             {/* Main Pricing Cards Container */}
             <div className="relative z-10 mx-auto max-w-[1440px] px-6 pt-[80px]">
-                <h2 className="text-center text-[clamp(34px,4vw,54px)] font-extrabold tracking-tight text-[#11142D]">
+                <h2 className="text-center text-[clamp(34px,4vw,54px)] font-bold tracking-tight text-[#11142D]">
                     Help Is One Click Away
                 </h2>
 
