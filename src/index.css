@@ -19,13 +19,13 @@ html {
 
 /* Delay modifiers for staggered animations */
 .delay-100 {
-  transition-delay: 90ms;
-}
-
-.delay-200 {
   transition-delay: 120ms;
 }
 
+.delay-200 {
+  transition-delay: 170ms;
+}
+
 .delay-300 {
-  transition-delay: 180ms;
+  transition-delay: 250ms;
 }

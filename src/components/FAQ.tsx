@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 // Data array for clean, DRY component rendering
 const faqData = [
     {
@@ -16,16 +17,20 @@ const faqData = [
     }
 ];
 
+
 const FAQ: React.FC = () => {
     return (
         <section className="w-full bg-white py-24 md:py-32 flex justify-center">
 
+
             <div className="max-w-[900px] w-full mx-auto px-6 md:px-12">
 
+
                 {/* Section Heading */}
-                <h2 className="text-[2.5rem] md:text-5xl font-bold text-[#11142D] mb-12 md:mb-16 tracking-tight reveal">
+                <h2 className="text-[2.5rem] font-bold text-[#11142D] mb-12 md:mb-16 tracking-tight reveal">
                     Common Questions
                 </h2>
+
 
                 {/* FAQ Items Mapping */}
                 <div className="flex flex-col gap-10 md:gap-12 mb-12 md:mb-16">
@@ -34,15 +39,16 @@ const FAQ: React.FC = () => {
                             key={index}
                             className={`flex flex-col reveal delay-${(index + 1) * 100}`}
                         >
-                            <h3 className="text-xl md:text-[1.35rem] font-semibold text-[#11142D] mb-4">
+                            <h3 className="text-[1.188rem] font-semibold text-[#11142D] mb-4">
                                 {item.question}
                             </h3>
-                            <p className="text-base md:text-[1.15rem] text-[#808191] leading-[1.8] font-medium">
+                            <p className="text-[1.188rem] text-[#808191] leading-[35px] font-medium">
                                 {item.answer}
                             </p>
                         </div>
                     ))}
                 </div>
+
 
                 {/* Outline Action Button */}
                 <div className="reveal delay-300">
@@ -54,9 +60,11 @@ const FAQ: React.FC = () => {
                     </button>
                 </div>
 
+
             </div>
         </section>
     );
 };
+
 
 export default FAQ;
