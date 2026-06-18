@@ -42,7 +42,7 @@ const FAQ: React.FC = () => {
                             <h3 className="text-[1.188rem] font-semibold text-[#11142D] mb-4">
                                 {item.question}
                             </h3>
-                            <p className="text-[1.188rem] text-[#808191] leading-[35px] font-medium">
+                            <p className="text-[1.188rem] text-[#808191] leading-[35px] font-normal">
                                 {item.answer}
                             </p>
                         </div>

@@ -31,7 +31,7 @@ const FeatureRow: React.FC<FeatureRowProps> = ({
                 <h2 className="text-[2.5rem] font-bold text-[#11142D] mb-6 leading-[52px] tracking-tight">
                     {title}
                 </h2>
-                <p className="text-[1.188rem] text-[#808191] leading-[35px] font-medium">
+                <p className="text-[1.188rem] text-[#808191] leading-[35px] font-normal">
                     {description}
                 </p>
             </div>
