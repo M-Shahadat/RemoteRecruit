@@ -185,3 +185,9 @@
     border-right-color: var(--border);
   }
 }
+
+
+.lg\:py-32 {
+
+  margin-top: -6%;
+}
