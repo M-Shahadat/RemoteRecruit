@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
                 <h1
                     id="hero-heading"
-                    className="text-4xl sm:text-[2.5rem] md:text-5xl lg:text-[4rem] font-extrabold text-white tracking-tight mb-4 sm:mb-6 md:mb-8"
+                    className="text-4xl sm:text-[2.5rem] md:text-5xl lg:text-[4rem] font-bold text-white tracking-tight mb-4 sm:mb-6 md:mb-8"
                 >
                     RemoteRecruit's Difference
                 </h1>
