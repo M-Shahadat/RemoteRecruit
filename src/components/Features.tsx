@@ -7,7 +7,7 @@ import feature3 from '../assets/feature-3.png';
 
 const Features: React.FC = () => {
     return (
-        <section className="w-full bg-white py-24 md:py-32 lg:py-32 overflow-hidden">
+        <section className="fade-up-on-load w-full bg-white py-24 md:py-32 lg:py-32 overflow-hidden">
             <div className="max-w-[1440px] mx-auto px-6 md:px-12 flex flex-col gap-24 md:gap-32 lg:gap-40">
 
                 <FeatureRow

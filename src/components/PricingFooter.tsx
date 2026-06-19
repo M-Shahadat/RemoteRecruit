@@ -29,7 +29,7 @@ const SocialBtn = ({ children }: { children: React.ReactNode }) => (
 
 const PricingFooter = () => {
     return (
-        <section className="relative w-full overflow-hidden bg-white">
+        <section className="relative w-full overflow-hidden bg-white reveal delay-300">
 
             {/* Absolute SVG Background */}
             <div className="absolute bottom-0 left-1/2 z-0 w-full min-w-[1440px] -translate-x-1/2 pointer-events-none">
