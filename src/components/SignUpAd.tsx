@@ -1,6 +1,6 @@
 
 import React from 'react';
-import dashboardImg from '../assets/Find Work.png';
+import dashboardImg from '../assets/Find Work.webp';
 import bottomBlob from '../assets/Ellipse 12.png';
 
 const SignUpAd: React.FC = () => {
