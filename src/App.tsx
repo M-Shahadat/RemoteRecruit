@@ -36,7 +36,7 @@ function App() {
   useScrollReveal();
 
   return (
-    <div className="min-h-screen bg-white font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-white">
       <Navbar />
 
       <main>
